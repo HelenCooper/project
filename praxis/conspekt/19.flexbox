@@ -1,0 +1,30 @@
+html 
+.my-flex-container>.my-flex-block*5    =
+
+<div class="my-flex-container">
+        <div style="order: 3" class="my-flex-block">item1</div>
+        <div style="order: 2" class="my-flex-block">item2</div>
+        <div style="order: 1" class="my-flex-block">item3</div>
+        <div style="order: 4" class="my-flex-block">item4</div>
+        <div style="order: 5" class="my-flex-block">item5</div>
+</div>
+
+
+css
+.my-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+}
+
+.my-flex-block {
+    width: 150px;
+    height: 150px;
+    margin: 0 50px;
+    background-color: rgba(231, 197, 122, 0.87);
+    text-align: center;
+    color: #464343;
+}

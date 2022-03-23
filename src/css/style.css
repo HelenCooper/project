@@ -1,0 +1,83 @@
+/* селектор(это то, по какому параметру мы обращаемся к элементу на нашей странице) { 
+    Свойство: значение;
+    Свойство: значение;
+} */
+
+* {
+    box-sizing:border-box;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    /* text-decoration: underline; */
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.chapter {
+    color:rgba(255,20,147,0.3);
+}
+
+#begin{
+    color:orange;
+}
+
+.text{
+    font-weight: 800ё                                                                                                   ;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(179, 245, 179);
+    padding: 20px;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: black; */
+    border: 3px solid rgb(138, 137, 137);
+    margin: 20px;
+}   
+
+a {
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px; 
+
+}
+/* 
+Блочные
+Строчные
+Строчно-блочные
+*/
+
+nav {
+    position: inherit;
+    right: 0px;
+    top: 50px;
+}
+
+.red {
+
+    background-color: red;
+    width: 50vw;
+    height: 30vh;
+}
+
+.example {
+    position: relative;
+}
